@@ -1,0 +1,9 @@
+#Day1
+count = 0
+  with open('day1-2019.txt') as f:
+    for line in f:
+      num = int(line)
+      count += (num-num3%)//3 - 2
+      
+f.close()
+print(count)
